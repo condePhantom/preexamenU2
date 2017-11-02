@@ -9,8 +9,45 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/datatables.css">
+        <link type="text/css" rel="stylesheet" href="css/sweetalert.css">
+
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="container">
+
+            <div class="row" style="margin-top:20px">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                    <form role="form" id="form-login">
+                        <fieldset>
+                            <h2>Login</h2>
+                            <hr class="colorgraph">
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
+                            </div>
+                            <hr class="colorgraph">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <button type="submit" id="btn-login" class="btn btn-lg btn-success btn-block">Sign In</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jQueryValidate.js"></script>
+        <script type="text/javascript" src="js/plugins/datatables.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/plugins/sweetalert.min.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+
     </body>
 </html>
